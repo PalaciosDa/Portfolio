@@ -1,0 +1,176 @@
+body{
+	background-color: lightgray;
+}
+#tabla-principal{
+	margin: auto;
+	background-color: white;
+}
+
+/* HEADER */
+
+#tabla-header {
+	background-image: url(img/autobus8.jpg);
+}
+#titulo {
+	font-family: 'Emblema One', cursive;
+	font-size: 80px;
+	margin-top: auto;
+}
+#a-titulo {
+	text-decoration: none;
+	color: white;
+}
+#h2-header {
+	color: white;
+	font-size: 28px;
+	margin-bottom: auto;
+	font-family: verdana;
+}
+#parrafo-header{
+	color: white;
+	font-size: 18px;
+	margin-right: 10px;
+	font-family: verdana;
+}
+
+/* MAIN */
+
+.main {
+	font-size: 20px;
+	text-align: center;
+}
+.a-main {
+	text-decoration: none;
+	color: #000;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.td-main, #tr-footer {
+	background-color: #FF821B;
+	border: 8px double; #6A6968;
+}
+.td-main:hover{
+	background-color: #D97F26;
+	border: 8px double #000;
+}
+.td-main:active{
+	background-color: #D97F26;
+	border: 8px double #000;
+	box-shadow: 0px 0px 17px 4px #000 inset;
+}
+
+
+/* TABLA BIENVENIDA */
+
+#tabla-bienvenida {
+	margin: auto;
+	text-align: center;
+}
+#h2-bienvenida {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 30px;
+}
+.img-bienvenida {
+	border-radius: 100px 50px;
+}
+.h3-bienvenida {
+	font-family: verdana;
+	font-size: 15px;
+}
+.p-bienvenida {
+	font-family: verdana;
+	font-size: 15px;
+	color: #6A6968;
+	margin-right: 4px;
+}
+
+/* FOOTER */
+
+.p-footer{
+	font-family: 'Emblema One', cursive;
+	font-size: 20px;
+}
+
+/* CONÓCENOS */
+
+#tabla-conocenos {
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	font-family: verdana;
+}
+.img-conocenos {
+	border-radius: 100px 50px;
+}
+hr {
+	height: 5px;
+	background-color: #FF821B;
+	width: 30%;
+	margin-left: 2px;
+}
+.h3conocenos {
+	font-size: 25px;
+}
+.p-conocenos {
+	font-size: 17px;
+}
+
+/* CONTACTO */
+
+#tabla-contacto {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #E5E5E5;
+	font-family: verdana;
+}
+#input-nombre {
+	width: 560px;
+}
+#input-email {
+	width: 250px;
+}
+.h3contacto {
+	color: #FF821B;
+	font-size: 35px;
+}
+
+/* FLOTA */ 
+
+#tabla-flota {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: verdana;
+	
+}
+.fotos-flota {
+	width: 400px;
+	height: 350px;
+	border-radius: 100px 50px;
+
+}
+.h3flota {
+	color: #FF821B;
+	font-size: 35px;
+}
+
+/* SERVICIOS */
+
+#tabla-servicios {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-family: verdana: 
+}
+.h3servicios {
+	font-size: 30px;
+	color: #FF821B;
+}
+#a-download {
+	font-family: verdana;
+	font-size: 20px;
+	color: #FF821B;
+}

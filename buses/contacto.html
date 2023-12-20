@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+	<link rel="icon" type="image/x-icon" href="img/P.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<table class="table" width="1200px" id="tabla-principal" cellspacing="0">
+		<tr height="570px">
+			<td colspan="4">
+				<table id="tabla-header">
+					<tr height="150px">
+						<td colspan="2" width="600px" valign="top"><h1 id="titulo"><a href="index.html" id="a-titulo">PalaBus</a></h1></td>
+						<td width="600px"></td>
+					</tr>
+					<tr height="180px">
+						<td colspan="2" width="450px"></td>
+						<td width="600px" align="center" valign="bottom"><h2 id="h2-header">¿Estás listo para comenzar tu viaje?</h2></td>
+					</tr>
+					<tr height="250px">
+						<td colspan="2" width="450px" ></td>
+						<td width="600px" align="center" valign="top"><p id="parrafo-header">Ofrecemos servicios de alquiler de autobuses con conductor en toda España, incluyendo la Comunidad de Madrid. Nuestros autocares son cómodos y seguros, y nuestros conductores tienen mucha experiencia. Ofrecemos una amplia gama de servicios a precios competitivos. ¿Te gustaría saber más sobre lo que podemos ofrecerte? Contáctanos.</p></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr height="80px" class="main">
+			<td width="300px" class="td-main"><a class="a-main" href="conocenos.html">Conócenos</a></td>
+			<td width="300px" class="td-main"><a class="a-main" href="servicios.html">Servicios</a></td>
+			<td width="300px" class="td-main"><a class="a-main" href="flota.html">Flota</a></td>
+			<td width="300px" class="td-main"><a class="a-main" href="contacto.html">Contacto</a></td>
+		</tr>
+		<tr height="800px">
+			<td colspan="4">
+				<table width="800px" id="tabla-contacto">
+					<form action="#" method="POST" 
+					enctype="multipart/form-data">
+						<tr height="60px">
+							<th colspan="2"><h3 class="h3contacto">Formulario de contacto</h3></th>
+						</tr>
+						<tr align="center">
+							<td colspan="2" height="60px">
+								<label for="nombre-apellidos">Nombre y Apellidos*</label><br/>
+								<input type="text" name="nombre-apellidos" required id="input-nombre">
+							</td>
+						</tr>
+						<tr height="60px" align="center">
+							<td>
+								<label for="email">Email*</label><br/>
+								<input type="email" name="email" required id="input-email">
+							</td>
+							<td width="350px">
+								<label for="telefono">Telefono</label><br/>
+								<input type="text" name="telefono">
+							</td>
+						</tr>
+						<tr  height="120px" align="center">
+							<td>
+								<label for="consulta">Tipo de consulta:</label><br>
+								<input type="radio" id="reservas" name="consulta" value="reservas">
+								<label for="reservas">Reservas</label><br>
+								<input type="radio" id="cancelaciones" name="consulta" value="cancelaciones">
+								<label for="cancelaciones">Cancelaciones</label><br>
+								<input type="radio" id="informacion" name="consulta" value="informacion">
+								<label for="informacion">Información</label><br>
+							</td>
+							<td>
+								<label for="pasajeros">Número de pasajeros</label><br/><br/>
+									<select id="pasajeros" name="pasajeros">
+  										<option value="1">1-10</option>
+										  <option value="2">11-20</option>
+										  <option value="3">21-30</option>
+										  <option value="4">31-40</option>
+										  <option value="5">41-50</option>
+										  <option value="6">51-60</option>
+									</select>
+							</td>
+						</tr>
+						<tr align="center" height="200px">
+							<td colspan="2">
+								<label for="comentario">Comentario*</label>
+								<br/>
+								<textarea rows="10" cols="80" required></textarea>
+							</td>
+						</tr>
+						<tr align="center" height="50px">
+							<td colspan="2">
+								<input type="checkbox" id="promociones" name="promociones" value="si">
+								<label for="promociones">Deseo recibir información sobre promociones y ofertas</label><br>
+							</td>
+						</tr>
+						<tr align="center" height="50px">
+							<td colspan="2">
+								  <button type="submit" id="boton-formulario">Enviar</button>
+							</td>
+						</tr>
+						<tr height="200px" valign="bottom">
+							<th colspan="2">
+								<h3 class="h3contacto">Estamos muy cerca de ti</h3>
+							</th>
+						</tr>
+						<tr>
+							<td colspan="2" align="center" valign="middle">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63560.107184517525!2d122.62156677681108!3d-5.339334121856379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da38b9a945af22f%3A0xfbb4ca66f7ae7891!2sPalabusa%2C%20Lea-Lea%2C%20Bau-Bau%2C%20Celeb%C3%A9s%20Sudoriental%2C%20Indonesia!5e0!3m2!1ses!2ses!4v1683197374356!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="1000px" height="450px"></iframe>
+							</td>
+						</tr>
+					</form>
+				</table>
+			</td>
+		</tr>
+		<tr height="80px" id="tr-footer">
+			<td colspan="4" align="center" valign="middle">
+				<table>
+					<tr height="70px" align="center" valign="middle">
+						<td width="300px"><a href="https://es-es.facebook.com/" target="_blank"><img src="img/facebook3.png" alt="facebook" height="40px"></a></td>
+						<td width="80px"><p class="p-footer">Pala</p></td>
+						<td width="50px"><a href="#a-titulo"><img src="img/P.png" height="30px"></a></td>
+						<td width="80px"><p class="p-footer">Bus</p></td>
+						<td width="300px"><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram2.png" alt="instagram"height="65px"></a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+	</table>
+</body>
+</html>
+

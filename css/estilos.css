@@ -1,0 +1,35 @@
+.linkedin{
+  float: right;
+}
+.linkedin img {
+  width: 35px;
+}
+.carousel-item img {
+  max-height: 500px;
+}
+.fila-sobreMi {
+  min-height: 300px;
+}
+.sobreMi-image {
+  max-height: 450px;
+}
+.hr-sobreMi {
+  width: 100%;
+}
+.card-certificacion {
+  max-width: 250px;
+}
+.btn-certificado1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.card-img-top {
+  max-height: 300px;
+}
+.card {
+  height: 600px;
+}
+.listaRedesSociales {
+  list-style-position: inside;
+}
